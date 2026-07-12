@@ -1,0 +1,2 @@
+import { ArchitectFeeCalculator } from "@/components/ArchitectFeeCalculator";
+export default function Estimate(){return <section className="section"><div className="shell"><div className="estimatehead"><div className="eyebrow">Project estimate</div><h1>Get an indicative architect fee.</h1><p>Select your project type, approximate size and required services. The result is a guide only.</p></div><ArchitectFeeCalculator/></div></section>}
